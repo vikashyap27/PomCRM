@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" verbose ="5" name="Test">
+    <classes>
+      <class name="pomCRM.testcases.ContactsPageTest"/>
+      <class name="pomCRM.testcases.CreateContactsPageTest"/>
+      <class name="pomCRM.testcases.HomePageTest"/>
+      <class name="pomCRM.testcases.LoginTestPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
