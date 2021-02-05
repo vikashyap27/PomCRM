@@ -24,6 +24,7 @@ public class ContactsPage extends BaseMethodClass {
 
 	public String ValidateContactsPage() {
 
+		System.out.println("Title of the page should be displayed" + driver.getTitle());
 		return driver.getTitle();
 
 	}
